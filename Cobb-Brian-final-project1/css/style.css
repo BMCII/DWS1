@@ -1,30 +1,35 @@
+/* clear auto margins and padding */
 * {
    margin: 0px;
    padding: 0px;
 }
+
+/* container for page */
 #container{
 	width: 960px;
 	margin: 0px auto;
-	}
+}
 
 body {
 	font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	color: #c7ab75;
 	background-image: url("../images/vintageblack.jpg");
 	background-attachment: fixed;	
-	}
+}
 	
 #header{
 	position: fixed;
 	background: url("../images/background1.png") ;
 	width: 100%;
     height: 280px;	
-	}
+}
 	
+/* Slayer logo image	 */
 h1 {
 	text-align:center;
-	}
-
+}
+	
+/* box for band images */
 #band{
 	height: 620px;
 	padding: 20px;
@@ -34,19 +39,18 @@ h1 {
 	float: right;
 	width: 30%;
 	box-shadow: -10px 10px 5px rgba(199,171,117,.3);
-	}
-
+}
+	
+/* headingd for sections */
 h3 {	
 	text-shadow: 0px 0px 5px #c7ab75;
 	font-family: 'Alegreya', serif;
 	font-size:250%;
 	color: #970000;
 	margin: 20px;
-	margin-top:50px
-	}
-	
-
-	
+	margin-top:60px
+}
+		
 #content{
 	width: 95%;
 	margin: 20px;
@@ -55,66 +59,62 @@ h3 {
 	text-align: justify;
 	line-height:175%;
 	padding:10px;
-	}
- 	
+}
+
+/* nav list 	 */
 ol {
-	width:20%;
-	margin: 240px 0px 30px 55px;
+	width:35%;
+	margin: 240px 0px 30px 85px;
 	list-style-type: none;
 	text-shadow: 0px 0px 25px #999999;
-	}
-	
+}
+
+/* navlist buttons	 */
 li a {
 	display:block;
 	height:30px;
-	background-color:rgba(199,171,117,.3);
+	background-color:rgba(158,3,3,0.2);
 	padding:10px;
 	text-align:center;
 	margin:5px;
 	border-radius:5px;
+	box-shadow: -10px 10px 5px rgba(199,171,117,.3);
 }
+
+/* band images border effects*/
 figure a img {
-	height:161px;
-	width:240px;
+	height:161px; 
+	width:240px; 
 	border-width: 4px;
 	border-color:rgba(0,0,0,0);
 	border-style:solid;
-	}
-	
+}	
 figure a img:link {
 	border-color:#900;
-	}
-	
+}	
 figure a img:visited {
-	border-color:#1096ea;
-	}
-
+	border-color:#c7ab75;
 }
 figure a img:hover {
 	border-color:#aba914;
-	}
-	
-figure a:active {
-	border-color:#od476b;
-	}
+}	
+figure a img:active {
+	border-color:#0d476b;
+}
 
-		
-a {
+/* nav list link effects		 */
+ol li a {
 	text-decoration: none;
-	}
-	
-    a:link {
+}	
+ol li a:link {
     color: #900
-    }
-    
-    a:visited {
-    color: #1096ea
-    }
-    
-    a:hover {
+}
+ol li a:visited {
+    color: #c7ab75
+}
+ol li a:hover {
     color: #aba914
-    }
-    
-    a:active{
-    color: #od476b
-    }
+}
+ol li a:active{
+    color: #0d476b 
+}
