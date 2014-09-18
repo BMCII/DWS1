@@ -1,20 +1,21 @@
 /* clear auto margins and padding */
 * {
-   margin: 0px;
-   padding: 0px;
+   margin: 0;
+   padding: 0;
 }
 
 /* container for page */
 #container{
-	width: 960px;
-	margin: 0px auto;
+	width: 80%;
+	margin: 0 auto;
 }
 
 body {
 	font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	color: #c7ab75;
-	background-image: url("../images/vintageblack.jpg");
-	background-attachment: fixed;	
+	background-image: url("../images/ricepaper-black.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;	
 }
 	
 #header{
@@ -31,9 +32,9 @@ h1 {
 	
 /* box for band images */
 #band{
-	height: 620px;
+	height: 660px;
 	padding: 20px;
-	margin: 240px 20px 20px 20px;
+	margin: 240px 5% 20px 5%;
 	border-radius: 7px;
 	background:rgba(158,3,3,0.2);
 	float: right;
@@ -42,51 +43,69 @@ h1 {
 	text-align:center;
 }
 	
-/* headingd for sections */
+/* heading for sections */
 h3 {	
 	text-shadow: 0px 0px 5px #c7ab75;
 	font-family: 'Alegreya', serif;
 	font-size:250%;
 	color: #970000;
-	margin: 20px;
+	margin: 2.5%;
 	margin-top:60px
 }
 		
 #content{
 	width: 95%;
-	margin: 20px;
+	margin: 2%;
 	text-indent : 10px;
 	text-shadow: 0px 0px 0px #999, 3px 3px 5px #db1a1a;	
-	text-align: justify;
+	
 	line-height:175%;
 	padding:10px;
 	
 }
 
+.column{
+	width:43%;
+	float:left;
+	padding: 1%;
+	margin: 2%;
+	display:inline-block;
+	
+}
+
+p{
+text-align: justify;
+}
+
 /* nav list 	 */
 ol {
 	width:30%;
-	margin: 240px 0px 30px 85px;
-	list-style-type: none;
+	margin: 325px 0px 165px 85px;
+	list-style-type: upper-roman;
 	text-shadow: 0px 0px 25px #999999;
+	display: block;
+	
 }
 
 /* navlist buttons	 */
 li a {
 	display:block;
-	height:30px;
+	height:40px;
 	background-color:rgba(158,3,3,0.2);
-	padding:10px;
-	text-align:center;
-	margin:5px;
+	padding:20px 10px 10px 10px;
+	text-align: center;
+	margin:1%;
 	border-radius:5px;
 	box-shadow: -10px 10px 5px rgba(199,171,117,.3);
 }
 
+li {
+
+}
+
 /* band images border effects*/
 figure a img {
-	height:161px; 
-	width:240px; 
+	
 	border-width: 4px;
 	border-color:rgba(0,0,0,0);
 	border-style:solid;
@@ -119,4 +138,9 @@ ol li a:hover {
 }
 ol li a:active{
     color: #0d476b 
+}
+
+#footer{
+float: left;
+clear: left;
 }
