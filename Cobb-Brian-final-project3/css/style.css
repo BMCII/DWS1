@@ -4,30 +4,31 @@
    padding: 0;
 }
 
-/* container for page */
+
 #container{
 	width: 80%;
 	margin: 0 auto;
 }
 
+/* body font, color and background */
 body {
 	font-family: 'Alegreya', serif;
 	color: #c7ab75;
 	background-image: url("../images/ricepaper-black.jpg");
 	background-attachment: fixed;	
 }
-	
+
+/* header with band logo */	
 #header{
 	position: fixed;
 	width:100%;
 	height:290px;
 	background-image: url("../images/Slayer.png"), url("../images/background1.png");
 	background-position: center, left top;
-	background-repeat: no-repeat, repeat-x;
-		
+	background-repeat: no-repeat, repeat-x;		
 }
 	
-/* Slayer logo image	 */
+/* h1 text sent off page	 */
 h1 {
 	text-indent : -9999px;
 }
@@ -51,9 +52,8 @@ h1 {
 	box-shadow: -10px 10px 5px rgba(199,171,117,.3);
 	text-align:center;
 }
-	
-	
-/* heading for sections */
+		
+/* section headings */
 h3 {	
 	text-shadow: 0px 0px 5px #c7ab75;
 	font-family: 'Alegreya', serif;
@@ -62,28 +62,29 @@ h3 {
 	margin: 2.5%;
 	margin-top:60px
 }
-		
+
+/* content box  */		
 #content{
 	width: 95%;
 	margin: 2%;
 	text-indent : 10px;
 	text-shadow: 0px 0px 0px #999, 3px 3px 5px #db1a1a;	
 	line-height:175%;
-	padding:10px;
-	
+	padding:10px;	
 }
 
+/* column layout  */
 .column{
 	width:43%;
 	float:left;
 	padding: 1%;
 	margin: 2%;
-	display:inline-block;
-	
+	display:inline-block;	
 }
 
+/* justify text in paragraphs */
 p{
-text-align: justify;
+	text-align: justify;
 }
 
 /* nav list 	 */
@@ -93,9 +94,9 @@ ol {
 	list-style-type: upper-roman;
 	text-shadow: 0px 0px 25px #999999;
 	display: block;
-	
 }
 
+/* list for band members */
 ul{
 	list-style: none;
 	display:inline-block;
@@ -104,7 +105,6 @@ ul{
 	clear:left;
 	font-size:2em;
 	line-height:150%;
-
 }
 
 /* navlist buttons	 */
@@ -128,46 +128,53 @@ li a {
 	font-size: 2em;
 }
 
-
-
 /* band images border effects*/
-figure a img {
-	
+figure a img {	
 	border-width: 4px;
 	border-color:rgba(0,0,0,0);
 	border-style:solid;
+	
 }	
 figure a img:link {
 	border-color:#900;
+	
 }	
 figure a img:visited {
 	border-color:#c7ab75;
+	
 }
 figure a img:hover {
 	border-color:#aba914;
+	
 }	
 figure a img:active {
 	border-color:#0d476b;
+	
 }
 
 /* nav list link effects		 */
 ol li a {
 	text-decoration: none;
-}	
+}
+	
 ol li a:link {
     color: #900
 }
+
 ol li a:visited {
     color: #c7ab75
 }
+
 ol li a:hover {
     color: #aba914
 }
+
 ol li a:active{
     color: #0d476b 
 }
 
+/* footer for acknowledgments */
 #footer{
-float: left;
-clear: left;
+	float: left;
+	clear: left;
 }
