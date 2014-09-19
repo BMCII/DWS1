@@ -11,7 +11,7 @@
 }
 
 body {
-	font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-family: 'Alegreya', serif;
 	color: #c7ab75;
 	background-image: url("../images/ricepaper-black.jpg");
 	background-attachment: fixed;	
@@ -96,6 +96,17 @@ ol {
 	
 }
 
+ul{
+	list-style: none;
+	display:inline-block;
+	margin:40px 10% 100px 15%;
+	float:left;
+	clear:left;
+	font-size:2em;
+	line-height:150%;
+
+}
+
 /* navlist buttons	 */
 li a {
 	display:block;
@@ -112,12 +123,12 @@ li a {
 	text-align: center;
 	margin:1%;
 	border-radius:5px;
-	box-shadow: -10px 10px 5px rgba(199,171,117,.3);
+	box-shadow: -10px 10px 5px rgba(199,171,117,0.3);
+	font-weight:bold;
+	font-size: 2em;
 }
 
-li {
 
-}
 
 /* band images border effects*/
 figure a img {
