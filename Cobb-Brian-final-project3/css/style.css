@@ -4,7 +4,6 @@
    padding: 0;
 }
 
-
 #container{
 	width: 80%;
 	margin: 0 auto;
@@ -19,7 +18,7 @@ body {
 }
 
 /* header with band logo */	
-#header{
+header{
 	position: fixed;
 	width:100%;
 	height:290px;
@@ -34,8 +33,8 @@ h1 {
 }
 	
 /* box for band images */
-#band{
-	height: 660px;
+aside{
+	
 	padding: 20px;
 	margin: 270px 5% 20px 5%;
 	border-radius: 6px;
@@ -51,6 +50,7 @@ h1 {
 	width: 30%;
 	box-shadow: -10px 10px 5px rgba(199,171,117,.3);
 	text-align:center;
+	overflow:auto;
 }
 		
 /* section headings */
@@ -70,7 +70,8 @@ h3 {
 	text-indent : 10px;
 	text-shadow: 0px 0px 0px #999, 3px 3px 5px #db1a1a;	
 	line-height:175%;
-	padding:10px;	
+	padding:10px;
+	overflow:auto;	
 }
 
 /* column layout  */
@@ -155,26 +156,85 @@ figure a img:active {
 /* nav list link effects		 */
 ol li a {
 	text-decoration: none;
-}
-	
+}	
 ol li a:link {
     color: #900
 }
-
 ol li a:visited {
     color: #c7ab75
 }
-
 ol li a:hover {
     color: #aba914
 }
-
 ol li a:active{
     color: #0d476b 
 }
 
 /* footer for acknowledgments */
 #footer{
-	float: left;
-	clear: left;
+	
+}
+
+table{
+	width:45%;
+	float:left;
+	clear:left;
+	overflow:auto;
+	border: 1px solid #000;
+	background-color: rgba(232,44,12,0.2);
+	border-collapse:collapse;
+}
+
+th{
+	padding:10px;
+	text-transform: uppercase;
+	font-size:1.3em;
+}
+
+td{
+	border: 1px solid #000;
+}
+
+td:hover{
+	color:#000;
+}
+
+.col2{
+	text-align:center;
+}
+
+.col3{
+	text-align:center;
+}
+
+form{
+	height:223px;
+	width:45%;
+	background: #000;
+	float:left;
+	padding:15px;
+	margin:0 0 0 30px;
+	font-size:1.2em;
+	color:#999;
+	border: 1px solid #000;
+	background-color: rgba(232,44,12,0.2);	
+	text-align:left;
+}
+
+label{
+	width:90px;
+	float:left;
+	
+}
+
+form:hover{
+	background-color: #000;
+}
+
+input:focus { 
+    background-color: #989;
+}
+
+input:hover{
+	background-color: #000;
 }
